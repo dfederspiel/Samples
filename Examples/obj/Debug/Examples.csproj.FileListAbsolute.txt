@@ -1,0 +1,5 @@
+C:\Users\David Federspiel\Dropbox\Development\Samples\Samples\Examples\bin\Debug\Examples.dll
+C:\Users\David Federspiel\Dropbox\Development\Samples\Samples\Examples\bin\Debug\Examples.pdb
+C:\Users\David Federspiel\Dropbox\Development\Samples\Samples\Examples\obj\Debug\Examples.dll
+C:\Users\David Federspiel\Dropbox\Development\Samples\Samples\Examples\obj\Debug\Examples.pdb
+C:\Users\David Federspiel\Dropbox\Development\Samples\Samples\Examples\obj\Debug\Examples.csprojResolveAssemblyReference.cache

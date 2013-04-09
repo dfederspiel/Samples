@@ -1,0 +1,5 @@
+C:\Users\David Federspiel\Dropbox\Development\Samples\Samples\Web\bin\Web.dll
+C:\Users\David Federspiel\Dropbox\Development\Samples\Samples\Web\bin\Web.pdb
+C:\Users\David Federspiel\Dropbox\Development\Samples\Samples\Web\obj\Debug\Web.csprojResolveAssemblyReference.cache
+C:\Users\David Federspiel\Dropbox\Development\Samples\Samples\Web\obj\Debug\Web.dll
+C:\Users\David Federspiel\Dropbox\Development\Samples\Samples\Web\obj\Debug\Web.pdb
