@@ -1,5 +1,0 @@
-C:\Github\Samples\Interfaces\bin\Debug\Interfaces.dll
-C:\Github\Samples\Interfaces\bin\Debug\Interfaces.pdb
-C:\Github\Samples\Interfaces\obj\Debug\Interfaces.csprojResolveAssemblyReference.cache
-C:\Github\Samples\Interfaces\obj\Debug\Interfaces.dll
-C:\Github\Samples\Interfaces\obj\Debug\Interfaces.pdb
