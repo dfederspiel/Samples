@@ -9,7 +9,7 @@ namespace UnitTesting
     public class Logger
     {
         [TestMethod]
-        public void TestMethod1()
+        public void TestLogger()
         {
             var k = new Kennel();
 

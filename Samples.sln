@@ -1,11 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Examples", "Examples\Examples.csproj", "{9DF64D79-5214-4530-8CEF-186D27D83CCA}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTesting", "UnitTesting\UnitTesting.csproj", "{2C223D42-B8F6-4F05-B208-0753E144892D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web", "Web\Web.csproj", "{83FAF232-2FC6-440F-AA84-1071E1ED5D9B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interfaces", "Interfaces\Interfaces.csproj", "{53C83025-F4C0-4A10-8D47-96B1B9D8E309}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,6 +29,10 @@ Global
 		{83FAF232-2FC6-440F-AA84-1071E1ED5D9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{83FAF232-2FC6-440F-AA84-1071E1ED5D9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{83FAF232-2FC6-440F-AA84-1071E1ED5D9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53C83025-F4C0-4A10-8D47-96B1B9D8E309}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53C83025-F4C0-4A10-8D47-96B1B9D8E309}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53C83025-F4C0-4A10-8D47-96B1B9D8E309}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53C83025-F4C0-4A10-8D47-96B1B9D8E309}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

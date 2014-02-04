@@ -5,3 +5,12 @@ C:\Users\David Federspiel\Dropbox\Development\Samples\Samples\UnitTesting\bin\De
 C:\Users\David Federspiel\Dropbox\Development\Samples\Samples\UnitTesting\obj\Debug\UnitTesting.csprojResolveAssemblyReference.cache
 C:\Users\David Federspiel\Dropbox\Development\Samples\Samples\UnitTesting\obj\Debug\UnitTesting.dll
 C:\Users\David Federspiel\Dropbox\Development\Samples\Samples\UnitTesting\obj\Debug\UnitTesting.pdb
+C:\Github\Samples\UnitTesting\obj\Debug\UnitTesting.csprojResolveAssemblyReference.cache
+C:\Github\Samples\UnitTesting\obj\Debug\UnitTesting.dll
+C:\Github\Samples\UnitTesting\bin\Debug\UnitTesting.dll
+C:\Github\Samples\UnitTesting\bin\Debug\UnitTesting.pdb
+C:\Github\Samples\UnitTesting\bin\Debug\Examples.dll
+C:\Github\Samples\UnitTesting\bin\Debug\Examples.pdb
+C:\Github\Samples\UnitTesting\obj\Debug\UnitTesting.pdb
+C:\Github\Samples\UnitTesting\bin\Debug\Interfaces.dll
+C:\Github\Samples\UnitTesting\bin\Debug\Interfaces.pdb

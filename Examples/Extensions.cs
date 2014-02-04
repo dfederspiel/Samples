@@ -11,6 +11,7 @@ namespace Examples
         public static String ToCrazyString(this String s)
         {
             return s + " CRAZY!!!";
+            // Comment
         }
 
         public static IEnumerable<string> ToProcessedStrings(this IEnumerable<string> strings)
