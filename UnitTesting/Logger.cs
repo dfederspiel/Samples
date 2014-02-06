@@ -1,7 +1,6 @@
 ﻿using System;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Examples;
-using System.Collections.Generic;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace UnitTesting
 {
@@ -27,14 +26,6 @@ namespace UnitTesting
 
             currentLogger = TextLogger.BlahBlahMethodStringSignature;
             currentLogger("Blah Blah Messaging");
-
-
-            PathSamples pathSamples = new PathSamples();
-
-            Test t = new Test(k);
-
-            List<string> strings = new List<string> { "string1", "string2" };
-            var x = strings.ToProcessedStrings();
 
             string crazyString = "Hello, I'm a moderately crazy string";
             currentLogger(crazyString.ToCrazyString());

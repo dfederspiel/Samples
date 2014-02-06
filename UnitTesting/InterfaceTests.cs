@@ -1,7 +1,7 @@
 ﻿using System;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Interfaces;
 using System.Collections.Generic;
+using Interfaces;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace UnitTesting
 {
@@ -11,6 +11,7 @@ namespace UnitTesting
         [TestMethod]
         public void BeAnnoyed()
         {
+
             List<IAnnoying> annoyingThings = new List<IAnnoying>();
             annoyingThings.Add(new Dog("Fido"));
             annoyingThings.Add(new Dog("Leda"));

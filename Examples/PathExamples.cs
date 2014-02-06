@@ -1,17 +1,14 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Examples
 {
-    public class PathSamples
+    public class PathExamples
     {
         public static Log logger = Console.Out.WriteLine;
 
-        public PathSamples()
+        public PathExamples()
         {
             var fileName = "Resources/photo.jpg";
             logger(fileName);

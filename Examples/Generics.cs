@@ -1,15 +1,12 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Examples
 {
-    public class TestBase<T>
+    public class Generics<T>
     {
         protected T Context { get; set; }
-        public TestBase(T context)
+        public Generics(T context)
         {
             if (context == null)
                 throw new ArgumentNullException("context");
@@ -18,10 +15,9 @@ namespace Examples
 
     }
 
-    public class Test : TestBase<Kennel>
+    public class Test : Generics<Kennel>
     {
-        public Test(Kennel context)
-            : base(context)
+        public Test(Kennel context) : base(context)
         {
             context.AsPet(new Pet { Name = "Fido" });
         }

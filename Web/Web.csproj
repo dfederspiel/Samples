@@ -40,6 +40,12 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="GrayscaleEffect">
+      <HintPath>..\packages\MyPackage.1.0.0\lib\GrayscaleEffect.dll</HintPath>
+    </Reference>
+    <Reference Include="ICSharpCode.AvalonEdit">
+      <HintPath>..\packages\MyPackage.1.0.0\lib\ICSharpCode.AvalonEdit.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Net.Http.Extensions">
@@ -70,20 +76,14 @@
     <Content Include="CoffeeScript\intro.js">
       <DependentUpon>intro.coffee</DependentUpon>
     </Content>
-    <Content Include="CoffeeScript\intro.min.js">
-      <DependentUpon>intro.coffee</DependentUpon>
-    </Content>
-    <Content Include="CoffeeScript\test.js">
-      <DependentUpon>intro.coffee</DependentUpon>
-    </Content>
-    <Content Include="CoffeeScript\test.min.js">
-      <DependentUpon>intro.coffee</DependentUpon>
-    </Content>
     <Content Include="Controls\AssetBasket\basket.html" />
     <Content Include="Controls\AssetBasket\jquery-1.9.1.js" />
     <Content Include="Controls\AssetBasket\knockout-2.2.1.debug.js" />
     <Content Include="Controls\AssetBasket\view.js" />
     <Content Include="packages.config" />
+    <Content Include="CoffeeScript\intro.js.map">
+      <DependentUpon>intro.js</DependentUpon>
+    </Content>
     <None Include="Scripts\jquery-2.1.0.intellisense.js" />
     <Content Include="Scripts\jquery-2.1.0.js" />
     <Content Include="Scripts\jquery-2.1.0.min.js" />
@@ -94,9 +94,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="CoffeeScript\intro.coffee" />
-    <Content Include="CoffeeScript\intro.js.map">
-      <DependentUpon>intro.js</DependentUpon>
-    </Content>
     <Content Include="Scripts\jquery-2.1.0.min.map" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

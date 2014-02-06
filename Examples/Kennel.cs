@@ -52,12 +52,6 @@ namespace Examples
                 new Mongoose() { Name = "Mongo" }
             };
 
-            var pets = Names.Select(AsPet);
-            var dynamic = Names.Select(AsDynamic);
-            var filtered = Names.Where(s => s.Name == "Leda");
-
-            var x = Names.Select(IsPet);
-
         }
 
         public Func<IPet, bool> IsPet
