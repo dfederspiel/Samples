@@ -7,8 +7,8 @@ namespace Examples
 {
     class Functions
     {
-        static string[] theList = { ".notgood", ".ohcrap", ".cantget" };
-        static string[] theFiles = { "myfile.notgood", "yourfile.ohcrap", "herfile.goodtimes", "hisfile.cantget" };
+        static readonly string[] theList = { ".notgood", ".ohcrap", ".cantget" };
+        static readonly string[] theFiles = { "myfile.notgood", "yourfile.ohcrap", "herfile.goodtimes", "hisfile.cantget" };
 
         static Func<string, bool> IsValid
         {

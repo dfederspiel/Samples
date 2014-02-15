@@ -2,8 +2,8 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <title></title>
-    <script src="jquery-1.9.1.js"></script>
-    <script src="knockout-2.2.1.debug.js"></script>
+    <script src="/scripts/jquery-2.1.0.intellisense.js"></script>
+    <script src="/scripts/knockout-3.0.0.debug.js"></script>
     <script src="view.js"></script>
     <style>
         .ss-document-basket {
@@ -19,6 +19,8 @@
                 display: inline-block;
                 white-space: nowrap;
                 overflow: hidden;
+                -ms-text-overflow: ellipsis;
+                -o-text-overflow: ellipsis;
                 text-overflow: ellipsis;
             }
 
@@ -119,8 +121,6 @@
         }
 
             .ss-document-link-wrapper:hover {
-                -moz-box-shadow: 2px 2px 2px rgba(0,0,0,.25);
-                -webkit-box-shadow: 2px 2px 2px rgba(0,0,0,.25);
                 box-shadow: 2px 2px 2px rgba(0,0,0,.25);
                 -moz-transition: box-shadow 500ms;
                 -o-transition: box-shadow 500ms;
