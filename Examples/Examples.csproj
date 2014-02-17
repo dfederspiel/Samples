@@ -44,6 +44,7 @@
     <Compile Include="Generics.cs" />
     <Compile Include="Kennel.cs" />
     <Compile Include="Logger.cs" />
+    <Compile Include="Coalescing.cs" />
     <Compile Include="PathExamples.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
